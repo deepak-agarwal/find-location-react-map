@@ -1,0 +1,1 @@
+function(a,b){a=a&&_.zd(a);b=b&&_.zd(b);if(a){b=b||a;var c=_.Lc(a.lat(),-90,90),d=_.Lc(b.lat(),-90,90);this.na=new Fd(c,d);a=a.lng();b=b.lng();360<=b-a?this.ga=new Bd(-180,180):(a=_.Mc(a,-180,180),b=_.Mc(b,-180,180),this.ga=new Bd(a,b))}else this.na=new Fd(1,-1),this.ga=new Bd(180,-180)};_.Hd=function(a,b,c,d){return new _.Gd(new _.R(a,b,!0),new _.R(c,d,!0))};
